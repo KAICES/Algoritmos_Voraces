@@ -38,9 +38,38 @@ public class Algoritmo_Monedas {
                      monedaAux = moneda;         
             }
             
-            JOptionPane.showMessageDialog(null,"Denominaciones ingresadas \n"+ monedas);
+            JOptionPane.showMessageDialog(null,"Denominaciones ingresadas \n"+ monedas); 
+
+            // <-- ordenar
             
-           
+            Vector monedasAux = new Vector () ; 
+            int x = 0 ; 
+            int y = 0 ; 
+            int j = 0 ;
+            double monAux = 0 ;             
+            
+            for ( j = 2 ; j < tam ; j++ )
+            {
+                x = monedas.indexOf(j);
+                y = x - 1 ;
+                while ( y > 0 && x < monedas.indexOf(j))
+                {
+                    monAux = ;
+                }
+                
+            }
+            
+            
+            
+            
+            double valor = Double.parseDouble(JOptionPane.showInputDialog("ingrese un valor "));
+            
+            for (int k = 0 ; k < tam ; k ++) {
+                
+                
+                
+            }
+            
         
         
     }
